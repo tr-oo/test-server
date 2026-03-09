@@ -1,3 +1,26 @@
+## О проекте
+Проект представляет собой простое веб-приложение, развернутое в Docker-контейнерах с Nginx в качестве reverse proxy.  
+Backend — HTTP-сервер на Python, отвечающий текстом "Hello from Effective Mobile!".
+
+---
+## Стек технологий
+- **Docker**, **Docker Compose**
+- **Nginx**
+- **Python 3.12**
+
+---
+## Структура проекта
+
+**├── backend/  
+│ ├── Dockerfile  
+│ └── server.py   
+├── nginx/  
+│ └── nginx.conf   
+├── docker-compose.yml  
+└── README.md**
+
+---
+
 # Запуск
 ```bash
 docker-compose up
